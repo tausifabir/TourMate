@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Search By Month"
+        android:id="@+id/SrRandomMonth"
+        />
+    <item android:title="Search By Year"
+        android:id="@+id/SrRandomYear"/>
+    <item android:title="Search By Current Year"
+        android:id="@+id/SrCurrentMonth"/>
+    <item android:title="Search By Current Year"
+        android:id="@+id/SrCurrentYear"/>
+    <item android:title="Total Report"
+        android:id="@+id/totalReport"/>
+    <item android:title="logout"
+        android:id="@+id/logout"/>
+
+
+</menu>

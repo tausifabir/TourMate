@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".EventList">
+
+
+    <EditText
+        android:id="@+id/eventNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="event name"/>
+    <EditText
+        android:id="@+id/eventDestinationET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="event destination"/>
+    <EditText
+        android:id="@+id/eventBudgetET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="event budget"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/addEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:onClick="addEvent"/>
+
+</LinearLayout>
